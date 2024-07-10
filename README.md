@@ -45,8 +45,10 @@ Create a .env file in the root directory and add your MongoDB URI and any other 
 MONGO_URI=mongodb://your-username:your-password@your-host:your-port/your-database
 
 PORT=3000
+
 4. **Run the Application**
-npm run dev
+
+      npm run dev
 ## Code Structure
 
         src/: Contains source code files.
