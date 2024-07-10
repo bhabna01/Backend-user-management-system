@@ -2,14 +2,14 @@
 
 ## Overview
 
-This is a backend application for a User Management System built with Node.js, Express.js, TypeScript, and MongoDB. The project demonstrates core backend functionalities, including user creation, retrieval, and data validation using the `joi` validation library.
+This is a backend application for a User Management System built with Node.js, Express.js, TypeScript, and MongoDB. The project demonstrates core backend functionalities, including user creation, retrieval, and data validation using the joi validation library.
 
 ## Features
 
 - **Create User**: Endpoint to create a new user with detailed attributes.
 - **Find User**: Endpoint to find users by email or phone.
-- **Data Validation**: Utilizes `joi` for data validation to ensure data integrity.
-- **Environment Configuration**: Uses `dotenv` to manage environment variables securely.
+- **Data Validation**: Utilizes joi for data validation to ensure data integrity.
+- **Environment Configuration**: Uses dotenv to manage environment variables securely.
 
 ## Tech Stack
 
@@ -18,7 +18,7 @@ This is a backend application for a User Management System built with Node.js, E
 - **TypeScript**: Superset of JavaScript that adds static types.
 - **MongoDB**: NoSQL database for storing user data.
 - **Mongoose**: ODM library for MongoDB.
-- **dotenv**: Loads environment variables from a `.env` file.
+- **dotenv**: Loads environment variables from a .env file.
 - **joi**: Data validation library for schema-based validation.
 
 ## Getting Started
@@ -41,7 +41,9 @@ Ensure you have the following installed:
 3. **Set Up Environment Variables**
 
 Create a .env file in the root directory and add your MongoDB URI and any other necessary environment variables:
+
 MONGO_URI=mongodb://your-username:your-password@your-host:your-port/your-database
+
 PORT=3000
 4. **Run the Application**
 npm run dev
@@ -54,5 +56,9 @@ npm run dev
         validation/: Validation schemas.
         app.ts: Main application file.
         server.ts: Entry point for starting the server.
+
+## Contributing
+
+If you have any suggestions or improvements, feel free to open an issue or a pull request!
 
 
