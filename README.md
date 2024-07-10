@@ -36,14 +36,16 @@ Ensure you have the following installed:
    git clone https://github.com/bhabna01/Backend-user-management-system.git
    cd backend-user-management-system
 2. **Install Dependencies**
+    
     npm install
 3. **Set Up Environment Variables**
+
 Create a .env file in the root directory and add your MongoDB URI and any other necessary environment variables:
 MONGO_URI=mongodb://your-username:your-password@your-host:your-port/your-database
 PORT=3000
 4. **Run the Application**
 npm run dev
-**Code Structure**
+## Code Structure
 
         src/: Contains source code files.
         controllers/: Business logic and request handling.
